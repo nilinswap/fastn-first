@@ -1,51 +1,28 @@
+-- import: fifthtry.github.io/doc-site as ds
+-- import: fifthtry.github.io/admonitions as cbox
+-- import: fifthtry.github.io/winter-cs as wc
 -- import: nilinswap.github.io/fastn-first/assets
 
 
+-- ds.page: hello world
+site-logo: $assets.files.images.kasperiteNaam.png
+colors: $wc.main
 
--- ds.page: Welcome to your [FASTN site](https://fastn.io/)
+Consequat qui qui ex duis dolor quis fugiat adipisicing et minim incididunt officia. Id eu officia deserunt ut. Esse do velit consequat dolore.
 
--- ftd.column:
-align-self: center
+-- ds.h1: About this page
 
--- chat.message-left: Yo! I am Amit Upadhyay, CEO of FifthTry, welcome to the new world of FTD.
-
--- ds.markdown: 
-
-You reached the right place, and from here let me assure you, your FTD journey is going superfast. 🙂
-
--- end: chat.message-left
-
--- chat.message-right:  😊 Liking this chat component?
-
--- ds.markdown:
-
-[Click here to learn more](https://fifthtry.github.io/bling/chat/)
-👍
-
--- end: chat.message-right
-
--- end: ftd.column
-
--- ds.h1: How to use?
-
-It's very simple like making a sandwich. Create new `.ftd` file and just say:
-
--- ds.code: `-- ds.page` 
-lang: ftd
-
-\-- ds.page: Your page title goes here
-
-Your page content goes here.
+This page is created using 4 packages. They are
+- admonitions
+- demo-site
 
 
--- ds.h1: Need sidebar at right side of page?
+-- cbox.info: Admonitions Site 
 
-Here it is, [use this document](https://fifthtry.github.io/doc-site/docs/right-sidebar/).
+Proident et aliqua quis Lorem ipsum labore do eiusmod. Ut consequat commodo reprehenderit est proident aliqua proident ad. Cillum velit culpa elit elit ad culpa exercitation. Dolore culpa reprehenderit et ullamco in deserunt laboris culpa occaecat irure aliqua id laborum. Et et qui commodo duis consectetur eiusmod consectetur eu dolor consequat culpa exercitation. Ullamco fugiat do duis consectetur tempor ex officia excepteur amet ea ea nulla eu culpa.
 
+Non ut irure aliqua consequat qui velit ipsum laboris et commodo reprehenderit non Lorem. Amet mollit sit ea esse magna anim eu in nisi. Laborum dolore proident nostrud in ex. Officia irure cupidatat veniam pariatur ullamco officia fugiat eiusmod mollit eiusmod amet veniam ex cupidatat. Occaecat qui aliqua adipisicing commodo amet sit quis officia. Amet enim ea aliquip pariatur. Pariatur dolore minim et dolor ut dolore amet labore veniam cupidatat elit labore duis.
 
--- ds.h1: 👀 Learn FTD and become a pro?
-
-You are one click away, just check [our documentation](https://fastn.dev/) and 
-dont forget to jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+-- end: cbox.info
 
 -- end: ds.page
